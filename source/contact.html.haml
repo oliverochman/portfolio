@@ -1,10 +1,8 @@
-%body
-  .container
-    .jumbotron
-
-      %h1 Contact
-
-      -data.contact.each do |contact|
-        %h4
+.container
+  .jumbotron.jumbo_portfolio
+    %h1 Contact
+    .row
+      - data.contacts.each do |contact|
+        .col-sm-4
           %a{href: "#{contact.url}"}
-            = contact.name
+            - display_social_icon(contact)
