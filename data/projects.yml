@@ -1,0 +1,15 @@
+- name: BMI challenge
+  description: Javascript program I built the second week of Craft Academy with a user interface.
+  url: https://github.com/oliverochman/BMI-challenge/tree/master
+
+- name: FizzBuzz
+  description: My first Test driven ruby project.
+  url: https://github.com/oliverochman/fizz_buzz_challenge
+
+- name: Cooper Test Challenge
+  description: Simple Javascript program where you can input distance and get the result from the normative cooper test data table.
+  url: https://github.com/oliverochman/Cooper-Test-Challenge
+
+- name: ATM Challenge
+  description: Ruby project that simulates an ATM, test driven with Rspec.
+  url: https://github.com/oliverochman/atm_challenge

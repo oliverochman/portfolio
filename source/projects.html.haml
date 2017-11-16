@@ -1,0 +1,11 @@
+%body
+  .container
+    .jumbotron
+
+      %h1 My projects
+
+      -data.projects.each do |projects|
+        %h4
+          %a{href: "#{projects.url}"}
+            = projects.name
+          %p= projects[:description]
