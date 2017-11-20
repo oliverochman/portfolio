@@ -1,0 +1,20 @@
+.container
+  .jumbotron.jumbo_cv
+    .center_text
+      %h1 Curriculum Vitae
+
+.container
+  .jumbotron.jumbo_cv
+    .center_text
+      %h3.margin_bottom Previous Work Experiences
+      -data.cv[:work].each do |job|
+        %h4= job[:job]
+        %p= job[:description]
+
+.container
+  .jumbotron
+    .center_text
+      %h3.margin_bottom Education
+      -data.cv[:education].each do |education|
+        %h4= education[:title]
+        %p= education[:description]

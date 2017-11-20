@@ -1,0 +1,10 @@
+work:
+    - job: GESAB (2016)
+      description: I worked as a constructor for GESAB, doing simple assingments(dirty work).
+    - job: Kungstorget (2016-2017)
+      description: I worked as a dish boy and a chef at a resturant.
+    - job: Johan Reistad F.A (2017)
+      description: I worked with installing trash vaccuming system. A lot of heavy lifting.
+education:
+    - title: High School, 2013-2016
+      description: I went to Polhemsgymnasiet in Gothenburg, studying social studies
